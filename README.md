@@ -1,15 +1,30 @@
 # Lator
 
-本仓库仅用于发布应用安装包，**不包含源代码**。
+Lator is a macOS app for reading, translation, subtitle workflows, and note-taking. This repository is used for distributing release builds.
 
-## 下载
+The application source code is maintained in [Orpheuscn/Lator-Electron](https://github.com/Orpheuscn/Lator-Electron).
 
-前往 [Releases](https://github.com/Orpheuscn/Lator/releases/latest) 下载最新版本的 `.dmg`。
+## Download
 
-- 平台：macOS (Apple Silicon / arm64)
-- 安装：打开 dmg，将 Lator 拖入「应用程序」文件夹
-- 当前为未签名内测版本，首次打开时若提示「无法验证开发者」，请右键点击应用图标 → 打开，或在「系统设置 → 隐私与安全性」中放行
+Download the latest macOS build from [Releases](https://github.com/Orpheuscn/Lator/releases/latest).
 
-## 反馈
+- Platform: macOS on Apple Silicon (arm64)
+- Distribution: `.dmg` installer and auto-update metadata
+- Signing: current releases are signed with a Developer ID certificate and notarized by Apple
 
-如有问题或建议，欢迎在本仓库提交 [Issue](https://github.com/Orpheuscn/Lator/issues)。
+## Installation
+
+1. Download the latest `.dmg` file from the release page.
+2. Open the disk image.
+3. Drag `Lator` into the `Applications` folder.
+4. Launch `Lator` from `Applications`.
+
+## Version 1.2.0
+
+- Added support for importing FB2 ebook files.
+- Added video subtitle recognition for extracting subtitles from video content.
+- Expanded the notebook workflow with repository management, imported and shared repositories, restored active notes, and Markdown image/wiki-link rendering in notebook previews.
+
+## Feedback
+
+Please report issues and suggestions in [Issues](https://github.com/Orpheuscn/Lator/issues).
